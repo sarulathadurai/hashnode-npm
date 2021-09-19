@@ -1,4 +1,4 @@
-export function CreateArticle(input) {
+export function CreateArticle(input,token) {
     const query = `mutation createStory($input: CreateStoryInput!){ 
       createStory(input: $input){ 
         code 
@@ -11,7 +11,7 @@ export function CreateArticle(input) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: "e3e87ac1-e995-442c-b572-55011db7c9c9"
+        Authorization: token
       },
       body: JSON.stringify({
         query,
