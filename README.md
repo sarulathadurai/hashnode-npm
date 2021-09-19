@@ -3,6 +3,12 @@
 A react function created to fetch articles which can be populated in cards for your portfolio.
 And also to create posts using their hashnode api.
 
+![hashnode-cover](https://res.cloudinary.com/practicaldev/image/fetch/s--ByKpo_Aw--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/lxil6ifcwdx3fkukypc1.png)
+
+![Npm](https://img.shields.io/npm/v/react-use-medium?logo=npm&style=flat-square)
+![GitHub](https://img.shields.io/github/license/dheerajmahra/react-use-medium?style=flat-square)
+
+
 ## Live Demo
 
 [CodeSandBox](https://codesandbox.io/s/hashnode-api-g8s2b)
