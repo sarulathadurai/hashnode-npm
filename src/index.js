@@ -1,1 +1,0 @@
-export {useGetArticles} from './useGetArticles'

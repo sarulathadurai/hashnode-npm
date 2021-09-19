@@ -1,7 +1,23 @@
 {
-  "name": "hashnode",
+  "name": "hashnode-api",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "React functions that help you fetch articles and create articles in hashnode",
+  "main": "src/index.js",
+  "bin":"src/index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },  
+  "keywords": [
+    "hashnode",
+    "hashnode-api",
+    "hashnode-blog",
+    "react",
+    "hashnode-stories",
+    "hashnode-createstory"
+  ],  
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -15,7 +31,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/components -d dist --copy-files"
   },
   "eslintConfig": {
     "extends": [
@@ -36,7 +53,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.15.4",
+    "@babel/cli": "^7.15.7",
     "@babel/preset-react": "^7.14.5"
   }
 }
